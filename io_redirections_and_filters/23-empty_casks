@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty -print -delete
+find . -empty | rev | cut --delimiter
